@@ -4,24 +4,25 @@ void main() {
   runApp(const MyApp());
 }
 
+/*
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      /*
+        /*
         home: Center(
       child: Container(width: 50, height: 50, color: Colors.blue),
     )
     */
-      //home: Image.asset("image.png")
-      home: Icon(Icons.star),
-      //home: Text("안녕"),
-    );
+        //home: Image.asset("image.png")
+        //home: Icon(Icons.star),
+        //home: Text("안녕"),
+        );
   }
 }
-/*
+*/
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
@@ -77,4 +78,3 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
-*/
