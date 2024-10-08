@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
     */
         //home: Image.asset("image.png")
         //home: Icon(Icons.star),
-        //home: Text("안녕"),
+        //home: Text("안녕 하세요"),
         );
   }
 }
